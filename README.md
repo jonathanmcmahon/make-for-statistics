@@ -2,6 +2,8 @@
 
 ### Using Makefiles for analytical workflows
 
+#### [Slide deck is here](Makefiles.pdf) 👈 ####
+
 **Makefile examples**
 
 file | description
