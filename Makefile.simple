@@ -1,0 +1,18 @@
+.PHONY : all regression plot clean
+
+
+all: plot regression
+
+clean:
+	rm -f plot.png test.log data.csv
+
+regression: data.csv
+	Rscript regression.R data.csv
+
+plot: plot.png
+
+plot.png: data.csv generate_plot.R
+	Rscript generate_plot.R data.csv
+
+data.csv:
+	Rscript scrape_data.R data.csv
