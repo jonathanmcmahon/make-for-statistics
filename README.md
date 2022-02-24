@@ -24,7 +24,7 @@ or
 $ make -f Makefile.simple
 ```
 
-### References ###
+**References**
 
 - https://github.com/jonathanmcmahon/make-for-statistics
 - https://github.com/jonathanmcmahon/python-dev-env
