@@ -8,8 +8,9 @@
 
 file | description
 -----|-------------
-[Makefile](Makefile) | fully-annotated with intermediate examples
-[Makefile.simple](Makefile.simple) | clean version with simpler usage
+[Simple Makefile](Makefile.simple) | clean version with simpler usage
+[Intermediate Makefile](Makefile) | fully-annotated with intermediate examples
+[More advanced Makefile](https://github.com/jonathanmcmahon/python-dev-env/blob/unlinted/Makefile) | (external) link to Makefile for a simple Python project w/ containerization
 
 
 **Usage**
